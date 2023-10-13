@@ -1,0 +1,22 @@
+{
+  "name": "cht-dotenv",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "description": "Helper for injecting environment variables into your config",
+  "scripts": {
+    "test": "mocha \"./test/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freddieptf/cht-dotenv.git"
+  },
+  "bin": {
+    "cht-dotenv": "src/index.js"
+  },
+  "devDependencies": {
+    "@medic/eslint-config": "^1.1.0",
+    "chai": "^4.3.10",
+    "eslint": "^8.51.0",
+    "mocha": "^10.2.0"
+  }
+}
